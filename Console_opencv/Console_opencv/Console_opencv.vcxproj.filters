@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Keypoint">
+      <UniqueIdentifier>{7bff934e-04b4-4e41-a7ae-cf455cb10aaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Histogram">
+      <UniqueIdentifier>{d7404231-ae50-4f09-9dc4-cf345735c975}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Keypoint">
+      <UniqueIdentifier>{86ca4b50-1ef1-4a69-803e-7c1fe806b800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Histogram">
+      <UniqueIdentifier>{b1a6a2e6-8d0f-43b6-a66a-4e83ce492eef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Morphlogy">
+      <UniqueIdentifier>{aa382d86-5539-4b7f-9e30-cf6834d2cdee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Morphlogy">
+      <UniqueIdentifier>{76ba5438-f6ac-4382-93df-04673ee5ac17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FrequencyTransform">
+      <UniqueIdentifier>{5f9f57b1-a046-458e-8794-37f5bf4933ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ShapeDetect">
+      <UniqueIdentifier>{b84edff3-ae23-4f7f-ab4e-c3321c2e1cd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShapeDetect">
+      <UniqueIdentifier>{57c34f51-a9ec-4101-b3a3-92c90756c292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FrequencyTransform">
+      <UniqueIdentifier>{b409535f-5138-4e69-97cb-b28375ff57ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Console_opencv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CVImageTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CVTemplateMatching.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CVHarrisCorner.h">
+      <Filter>Header Files\Keypoint</Filter>
+    </ClInclude>
+    <ClInclude Include="CVORB.h">
+      <Filter>Header Files\Keypoint</Filter>
+    </ClInclude>
+    <ClInclude Include="CVSIFT.h">
+      <Filter>Header Files\Keypoint</Filter>
+    </ClInclude>
+    <ClInclude Include="CVSURF.h">
+      <Filter>Header Files\Keypoint</Filter>
+    </ClInclude>
+    <ClInclude Include="CVHistorgram.h">
+      <Filter>Header Files\Histogram</Filter>
+    </ClInclude>
+    <ClInclude Include="HistogramEqualize.h">
+      <Filter>Header Files\Histogram</Filter>
+    </ClInclude>
+    <ClInclude Include="CVConnectedComponent.h">
+      <Filter>Header Files\Morphlogy</Filter>
+    </ClInclude>
+    <ClInclude Include="CVThresholding.h">
+      <Filter>Header Files\Morphlogy</Filter>
+    </ClInclude>
+    <ClInclude Include="CVMorphlogy.h">
+      <Filter>Header Files\Morphlogy</Filter>
+    </ClInclude>
+    <ClInclude Include="CVShapeDetect.h">
+      <Filter>Header Files\ShapeDetect</Filter>
+    </ClInclude>
+    <ClInclude Include="CVDct.h">
+      <Filter>Header Files\FrequencyTransform</Filter>
+    </ClInclude>
+    <ClInclude Include="CVGabor.h">
+      <Filter>Header Files\FrequencyTransform</Filter>
+    </ClInclude>
+    <ClInclude Include="HaarWavelet.h">
+      <Filter>Header Files\FrequencyTransform</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Console_opencv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CVImageTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CVTemplateMatching.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CVHistorgram.cpp">
+      <Filter>Source Files\Histogram</Filter>
+    </ClCompile>
+    <ClCompile Include="HistogramEqulaize.cpp">
+      <Filter>Source Files\Histogram</Filter>
+    </ClCompile>
+    <ClCompile Include="CVHarrisCorner.cpp">
+      <Filter>Source Files\Keypoint</Filter>
+    </ClCompile>
+    <ClCompile Include="CVORB.cpp">
+      <Filter>Source Files\Keypoint</Filter>
+    </ClCompile>
+    <ClCompile Include="CVSIFT.cpp">
+      <Filter>Source Files\Keypoint</Filter>
+    </ClCompile>
+    <ClCompile Include="CVSURF.cpp">
+      <Filter>Source Files\Keypoint</Filter>
+    </ClCompile>
+    <ClCompile Include="CVConnectedComponent.cpp">
+      <Filter>Source Files\Morphlogy</Filter>
+    </ClCompile>
+    <ClCompile Include="CVThresholding.cpp">
+      <Filter>Source Files\Morphlogy</Filter>
+    </ClCompile>
+    <ClCompile Include="CVMorphlogy.cpp">
+      <Filter>Source Files\Morphlogy</Filter>
+    </ClCompile>
+    <ClCompile Include="CVShapeDetect.cpp">
+      <Filter>Source Files\ShapeDetect</Filter>
+    </ClCompile>
+    <ClCompile Include="CVDct.cpp">
+      <Filter>Source Files\FrequencyTransform</Filter>
+    </ClCompile>
+    <ClCompile Include="CVGabor.cpp">
+      <Filter>Source Files\FrequencyTransform</Filter>
+    </ClCompile>
+    <ClCompile Include="HaarWavelet.cpp">
+      <Filter>Source Files\FrequencyTransform</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Console_opencv.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

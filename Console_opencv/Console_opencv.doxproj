@@ -1,0 +1,4 @@
+<DoxygenConfig Version="2">
+  <DoxHtmlPath>..\..\bin</DoxHtmlPath>
+  <UseFrames>True</UseFrames>
+</DoxygenConfig>
